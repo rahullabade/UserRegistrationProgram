@@ -5,9 +5,9 @@ import org.junit.Test;
 
 public class UserRegistrationTest {
     @Test
-    public void givenPhoneNumber_WhenCorrect_ShouldReturnTrue() {
+    public void givenPassword_WhenCorrect_ShouldReturnTrue() {
         UserRegistration userRegistration = new UserRegistration();
-        boolean userTest = userRegistration.phoneNumber("91 7744918893");
+        boolean userTest = userRegistration.passwordTest("uybi12");
         Assert.assertTrue(userTest);
     }
 }
